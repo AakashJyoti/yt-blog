@@ -1,0 +1,43 @@
+.loginPage {
+  height: 89vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: aliceblue;
+}
+
+.loginPage div span{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginPage  span {
+  font-size: 1.5rem;
+  color: #444343;
+  font-weight: bold;
+}
+
+.googleBtn {
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  padding: 10px 16px 12px 60px;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.04), 0 1px 1px rgba(0, 0, 0, 0.25);
+  background-image: url("../assets/googleLogo.jpg");
+  height: 50px;
+  color: #757575;
+  font-size: 25px;
+  font-weight: 500;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: 12px 11px;
+}
+
+.googleBtn:hover {
+  box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.04), 0 2px 4px rgba(0, 0, 0, 0.25);
+}
